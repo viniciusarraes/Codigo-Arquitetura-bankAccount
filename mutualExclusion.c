@@ -1,7 +1,3 @@
-/* mutualExclusion.c
- * Versão estendida com múltiplas contas e operações aleatórias.
- */
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <pthread.h>
@@ -91,3 +87,4 @@ int main(int argc, char** argv) {
     free(threads);
     return 0;
 }
+
