@@ -1,7 +1,3 @@
-/* logging.h
- * Controle de log para operações bancárias.
- */
-
 #ifndef LOGGING_H
 #define LOGGING_H
 
@@ -50,3 +46,4 @@ void logTransfer(int tid, int origem, int destino, double valor, int sucesso) {
 }
 
 #endif
+
