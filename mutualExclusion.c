@@ -20,7 +20,7 @@ unsigned long processCommandLine(int argc, char** argv) {
 void* child(void* buf) {
     int tid = (int)(unsigned long) buf;
 
-    for (int i = 0; i < 1000; i++) {
+    for (int i = 0; i < 10; i++) {
 
         int op = rand() % 4;          // 0=dep,1=saque,2=consulta,3=transf
         int conta = rand() % NUM_CONTAS;
